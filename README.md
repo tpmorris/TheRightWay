@@ -1,5 +1,5 @@
 # The Right Way to code simulation studies in Stata
-This repository accompanies my talk at the 25th London Stata Conference, 5–6 Sep 2019.
+This repository accompanies my talk at the 25th London Stata Conference, 5–6 Sep 2019 ([slides](https://www.stata.com/meeting/uk19/slides/uk19_morris.pptx)).
 It contains three .do files which implement the same simulation study using different approaches in Stata.
 ## 1TheSimulateWay.ado
 This file uses the `simulate` command to run the simulation study. The code is clear but has various shortcomings (as noted in my presentation), primarily that it produces messy data files, which may lead to errors, and that it cannot save random number generator states, which is often desirable.
